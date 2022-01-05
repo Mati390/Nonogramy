@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1 {
+    text-align: center;
+    color: slateblue;
+    width: 10%;
+    margin-left: 44.5%;
+    border: 5px dotted aquamarine;
+}
+h1:hover{
+  animation:kat 1s linear infinite;
+}
+@keyframes kat
+{
+  
+  0% { transform: rotate(0deg) }
+  25% { transform: rotate(30deg) }
+  50% { transform: rotate(90deg) }
+  75% { transform: rotate(180deg) } 
+  100% { transform: rotate(360deg) } 
+}
+
+#btnShop{
+  float: right;
+  margin-top: -3.8%;
+  color: slateblue;
+  font-size: medium;
+  border: 2px solid aquamarine;
+  background-color: white;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+#btnShop:hover {
+  background-color: aquamarine;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ 
+}
+#mainContener{
+  width: 600px;
+  height: 600px;
+  float: left;
+  margin-left: 34%;
+  border:2px solid black;
+}
+h3{
+  text-align: center;
+  margin-top: 34%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  color: slateblue;
+}
