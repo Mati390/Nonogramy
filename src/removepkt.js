@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+pimport logo from './logo.svg';
 
-function addpkt() {
+function removepkt() {
     let points = document.getElementById("Points");
     let pointsInt = parseInt(points.textContent);
     
@@ -8,4 +8,4 @@ function addpkt() {
     console.log(pointsInt);
 }
 
-export default addpkt;
+export default removepkt;
