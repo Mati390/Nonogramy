@@ -1,24 +1,27 @@
-#DrawBoard > div{
+#Board > div{
   float: left;
   width: 25px;
   height: 25px;
-  border:1px solid rgb(138, 138, 138);
+  border:1px solid rgb(165, 165, 165);
 }
-br{
+#fixed{
+  display: block;
   clear: both;
 }
-.top{
-  width: 25px;
-  border-left:1px solid rgb(170, 170, 170);
-  border-right:1px solid rgb(170, 170, 170);
-  float: left;
-  text-align: center;
+.answ{
+  background-color: rgb(30, 30, 53);
 }
-.right{
-  height: 25px;
-  width: 25px;
-  border-top:1px solid rgb(170, 170, 170);
-  border-bottom:1px solid rgb(170, 170, 170);
-  text-align: center;
+.Wrong{
+  background-color: rgb(245, 118, 118);
+  animation: wrong 2s forwards;
+}
 
+@keyframes wrong
+{
+  
+  0% { opacity: 0.8; }
+  25% { opacity: 0.6; }
+  50% { opacity: 0.4; }
+  75% { opacity: 0.2;} 
+  100% { opacity: 0; } 
 }
