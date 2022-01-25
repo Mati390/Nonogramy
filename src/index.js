@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import DrawBoard from './DrawBoard';
+import Shop from './Shop';
+import ShopPrzycisk from './ShopPrzycisk';
 import Draw from './Draw';
 import Count from './Count';
 import Lvl1 from './Lvl1';
+import Points from './Points';
+import addpkt from './addpkt';
+import Bulb from './Bulb';
+import Serce from './Serce';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
   <div>
   <h1>Nonogram</h1>
-<button id="btnShop">Shop</button>
+  <button id="btnShop" onClick={ShopPrzycisk}>Shop</button>
+  <Shop />
+  <Points />
+  <Serce/>
+  <Bulb/>
+
 <div id="mainContainer">
 
   <Lvl1/>
@@ -23,7 +33,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-Count();
+//Count();
 Draw();
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

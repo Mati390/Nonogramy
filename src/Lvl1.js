@@ -9,6 +9,12 @@ class Lvl1 extends React.Component {
         <DrawBoard Fields={5}/>
       );
     }
+    // isWinning(){
+    //   const Fields = [...document.getElementsByClassName("empty")];
+    //   let tab = [];
+    //   console.log("aaa");
+      
+    // }
 
     componentDidMount() {
         const all = [...document.getElementsByClassName("empty")];
