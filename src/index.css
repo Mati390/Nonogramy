@@ -72,15 +72,15 @@ h3{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-color: aquamarine;
+  background-color: white;
   width: 20%;
   height: 60%;
-  border: 2px solid black;
+  border: 2px solid slateblue;
   z-index: 1;
   display: none;
 }
 #buttonX{
-  border:2px solid black;
+  border:2px solid ;
   font-weight: bold;
   border-radius: 50%;
   height: 4%;
@@ -94,9 +94,9 @@ h3{
 #SercaSklep{
   clear: both;
   height: 40%;
-  border: 1px solid black;
+  
 }
 #WskazowkaSklep{
   height: 40%;
-  border: 1px solid black;
+  
 }
