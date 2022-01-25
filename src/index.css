@@ -66,3 +66,37 @@ h3{
   font-size: small;
   color: slateblue;
 }
+#Shop{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: aquamarine;
+  width: 20%;
+  height: 60%;
+  border: 2px solid black;
+  z-index: 1;
+  display: none;
+}
+#buttonX{
+  border:2px solid black;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 4%;
+  width: 8%;
+  text-align: center;
+  float: right;
+  color: black;
+  background-color: slateblue;
+  
+}
+#SercaSklep{
+  clear: both;
+  height: 40%;
+  border: 1px solid black;
+}
+#WskazowkaSklep{
+  height: 40%;
+  border: 1px solid black;
+}
